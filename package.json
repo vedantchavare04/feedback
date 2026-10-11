@@ -1,0 +1,12 @@
+{
+  "name": "tourmate-feedback",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "One feedback page for Tourmate.ai, Solo2Squad and Group Finder. Saves to Neon, emails via Resend.",
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.0",
+    "resend": "^6.0.0"
+  }
+}
